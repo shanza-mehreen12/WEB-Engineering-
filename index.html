@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean & Brew Cafe</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>☕ Bean & Brew Cafe</h1>
+        <p>Fresh Coffee. Fresh Moments.</p>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Main Section -->
+        <section id="home" class="hero">
+            <div>
+                <h2>Welcome to Bean & Brew</h2>
+                <p>
+                    Enjoy freshly brewed coffee, delicious snacks,
+                    and a relaxing atmosphere.
+                </p>
+
+                <a class="button" href="#menu">Explore Our Menu</a>
+            </div>
+
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80"
+                 alt="Cup of coffee on a cafe table">
+        </section>
+
+
+        <!-- Cards / Items -->
+        <section id="menu">
+            <h2>Our Popular Items</h2>
+
+            <div class="cards">
+
+                <article class="card">
+                    <h3>☕ Cappuccino</h3>
+                    <p>
+                        Rich espresso combined with steamed milk
+                        and creamy foam.
+                    </p>
+                    <strong>Rs. 450</strong>
+                </article>
+
+                <article class="card">
+                    <h3>🍰 Chocolate Cake</h3>
+                    <p>
+                        Soft chocolate cake covered with
+                        delicious chocolate cream.
+                    </p>
+                    <strong>Rs. 550</strong>
+                </article>
+
+                <article class="card">
+                    <h3>🥪 Chicken Sandwich</h3>
+                    <p>
+                        Grilled chicken with fresh vegetables
+                        and special cafe sauce.
+                    </p>
+                    <strong>Rs. 600</strong>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- List -->
+        <section class="list-section">
+            <h2>Why Choose Our Cafe?</h2>
+
+            <ol>
+                <li>Freshly prepared food</li>
+                <li>Premium quality coffee</li>
+                <li>Comfortable environment</li>
+                <li>Friendly service</li>
+            </ol>
+
+            <h3>How to Order</h3>
+
+            <!-- ABC instead of 123 -->
+            <ol class="alphabet-list">
+                <li>Choose your favorite item</li>
+                <li>Select your quantity</li>
+                <li>Submit your order</li>
+            </ol>
+        </section>
+
+
+        <!-- About -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                Bean & Brew is a small local cafe created for
+                coffee lovers. We serve fresh drinks and meals
+                in a comfortable environment.
+            </p>
+
+            <p>
+                Visit our
+                <a href="https://www.google.com" target="_blank">
+                    location
+                </a>
+                to find us.
+            </p>
+        </section>
+
+
+        <!-- Table -->
+        <section>
+            <h2>Opening Hours</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Opening Time</th>
+                        <th>Closing Time</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Monday - Friday</td>
+                        <td>9:00 AM</td>
+                        <td>10:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Saturday</td>
+                        <td>10:00 AM</td>
+                        <td>11:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sunday</td>
+                        <td>12:00 PM</td>
+                        <td>9:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <!-- Form -->
+        <section id="contact">
+            <h2>Contact / Order Form</h2>
+
+            <form>
+
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email">
+
+
+                <!-- Radio buttons -->
+                <p>Choose your order type:</p>
+
+                <label>
+                    <input type="radio" name="orderType" value="dinein">
+                    Dine In
+                </label>
+
+                <label>
+                    <input type="radio" name="orderType" value="takeaway">
+                    Take Away
+                </label>
+
+
+                <!-- Checkboxes -->
+                <p>Select your preferences:</p>
+
+                <label>
+                    <input type="checkbox" name="preference" value="sugar">
+                    Extra Sugar
+                </label>
+
+                <label>
+                    <input type="checkbox" name="preference" value="milk">
+                    Extra Milk
+                </label>
+
+                <label>
+                    <input type="checkbox" name="preference" value="spicy">
+                    Spicy Food
+                </label>
+
+
+                <label for="message">Message:</label>
+
+                <textarea id="message" name="message"
+                          placeholder="Write your message"></textarea>
+
+                <button type="submit">Submit Order</button>
+
+            </form>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Bean & Brew Cafe | All Rights Reserved</p>
+    </footer>
+<script src="script.js"></script>
+
+</body>
+</html>
